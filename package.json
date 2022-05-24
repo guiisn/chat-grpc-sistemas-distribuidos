@@ -1,0 +1,26 @@
+{
+  "name": "grpc-chat",
+  "version": "1.0.0",
+  "description": "chat with grpc",
+  "main": "src/server/index.js",
+  "scripts": {
+    "start:server": "nodemon node src/server/index.js",
+    "start:chat": "node src/client/index.js"
+  },
+  "keywords": [
+    "grpc",
+    "protocol",
+    "buffers",
+    "rpc"
+  ],
+  "author": "Marcos Guilherme",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "dotenv": "^16.0.1",
+    "grpc": "^1.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
